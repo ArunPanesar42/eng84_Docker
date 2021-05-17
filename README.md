@@ -6,6 +6,16 @@
 - Docker is much smaller and much faster for deployment
 ## Docker Installation and setup
 ### Docker Hub account and repo
+### Docker Commands
+- `docker --version`
+- `docker run hello-world `
+- `docker pull name_of_image`
+= `docker rmi name_of_image` - to remove image
+- `docker rmi name_of_image -f` - to force remove image 
+- `docker ps` - to check running containers 
+- `docker ps -a` - to check all running containers history
+- `docker rm container_id` - to remove container
+- `docker rm container_id -f` - to force remove container
 ## Docker Containers and images
 ### Building customised images
 ### Microservices 
@@ -20,12 +30,3 @@
 - Automatic bin packing
 - Storage orchestration 
 
-- `docker --version`
-- `docker run hello-world `
-- `docker pull name_of_image`
-= `docker rmi name_of_image` - to remove image
-- `docker rmi name_of_image -f` - to force remove image 
-- `docker ps`
-- `docker ps -a`
-- `docker rm container_id` - to remove container
-- `docker rm container_id -f` - to force remove container
