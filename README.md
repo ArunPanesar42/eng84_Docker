@@ -23,7 +23,13 @@
 - `docker rm container_id -f` - to force remove container
 ## Docker Containers and images
 ### Building customised images
-### Microservices 
+### Microservices
+- Microservices are a popular software design architecture that breaks apart monolithic systems. Applications are built as collections of loosely coupled services. Each microservice is responsible for a single feature. They interact with each other through communication protocols such as HTTP and TCP.
+- The Prinicples of Microservices:
+    - **Service Abstraction** (services hide their internal logic)
+    - **Service Reusability** (service structure is planned according to the DRY principle)
+    - **Service Autonomy** (services internally control their own logic)
+    - **Service Composability** (services can be used together)
 # Kubernetes
 - adopted by all cloud providers 
 - kubernetes manages containers for over 69% of companies 
