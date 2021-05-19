@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: arunpanesar42/eng84_docker_app:v1
+    depends_on:
+      - mongodb
+    environment:
+      DB_HOST: mongodb://mongodb:27017/posts
+    ports:
+      - 3000:3000
+    container_name: eng94_web_app
+
+  mongodb:
+    image: mongo
+    restart: always
+    container_name: database
