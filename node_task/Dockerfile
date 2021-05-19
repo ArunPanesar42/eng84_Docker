@@ -15,4 +15,6 @@ RUN node seeds/seed.js
 
 EXPOSE 3000
 
+CMD ["node", "seeds/seed.js"]
+
 CMD ["npm", "start"]

@@ -11,7 +11,7 @@ services:
       DB_HOST: mongodb://mongodb:27017/posts
     ports:
       - 3000:3000
-    container_name: eng94_web_app
+    container_name: eng84_web_app
 
   mongodb:
     image: mongo
